@@ -36,7 +36,7 @@ class MixerFactory implements Mixer {
     }
 }
 
-class Type1 implements Mixer{
+class Type1 {
     public void type1Method1() {
         System.out.println("Type 1 Method 1");
 
@@ -47,7 +47,7 @@ class Type1 implements Mixer{
     }
 }
 
-class Type2 implements Mixer{
+class Type2 {
     public void type2Method1() {
         System.out.println("Type 2 Method 1");
     }
